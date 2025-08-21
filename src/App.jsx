@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Greet from './Greet'
 import Welcome from './Welcome'
+import HelloMessage from './HelloMessage'
+import OnClickChangeName from './OnClickChangeName'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +34,11 @@ function App() {
       </p>
       <Greet />
       <Welcome />
+      <HelloMessage name="akshitha">
+        <p> Hiiii...</p>
+      </HelloMessage>
+      <HelloMessage age="23" />
+      <OnClickChangeName/>
     </>
   )
 }

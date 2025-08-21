@@ -10,9 +10,13 @@
 
 import React from 'react'
 
+let name = 'Pray'
+const car ={name: 'BMW', model: '2025'}
 class Welcome extends React.Component{
   render(){
-    return <p> Hi how are yo u ray</p>
+    // return <p> Hi how are yo u ray</p>
+    // return <h3>Hi how are you {name}</h3>
+    return <h3>Hi how are you {name} and {car.name}</h3>
   }
 }
 
