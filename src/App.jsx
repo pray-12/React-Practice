@@ -6,7 +6,9 @@ import Greet from './Greet'
 import Welcome from './Welcome'
 import HelloMessage from './HelloMessage'
 import OnClickChangeName from './OnClickChangeName'
-
+import Event from './Components/Event'
+import AddArgumentEventClass from './Components/AddArgumentEventClass'
+import ParentComponent from './Components/ParentComponent'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -39,6 +41,9 @@ function App() {
       </HelloMessage>
       <HelloMessage age="23" />
       <OnClickChangeName/>
+      <Event/>
+      <AddArgumentEventClass/>
+      <ParentComponent/>
     </>
   )
 }
